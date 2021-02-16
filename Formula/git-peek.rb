@@ -16,7 +16,7 @@ class GitPeek < Formula
 
   def install
     bin.install "git-peek-macOS" => "git-peek"
-  en
+  end
 
   def post_install
     system "git-peek --register --postinstall"
