@@ -19,7 +19,7 @@ class GitPeek < Formula
   end
 
   def post_install
-    puts "To add 1-click \"Peek\" buttons to GitHub, run git peek -r and install the browser extension.\n->  https://github.com/Jarred-Sumner/1-click-from-github-to-editor"
+    puts "To add 1-click \"Peek\" buttons to GitHub:\n  1. Run git peek -r\n  2. Install the browser extension.\n=> https://github.com/Jarred-Sumner/1-click-from-github-to-editor"
   end
 
   test do
