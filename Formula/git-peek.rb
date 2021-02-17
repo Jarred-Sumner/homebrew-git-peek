@@ -3,9 +3,9 @@ require "language/node"
 class GitPeek < Formula
   desc "git repo to local editor instantly"
   homepage "https://github.com/Jarred-Sumner/git-peek"
-  url "https://github.com/Jarred-Sumner/git-peek/releases/download/1.3.13/git-peek-macOS"
+  url "https://github.com/Jarred-Sumner/git-peek/releases/download/1.3.14/git-peek-macOS"
   head "https://github.com/Jarred-Sumner/git-peek.git"
-  sha256 "78ad73aadb477c471141533be50fd6a02e05c709da7e1c077bee8bcfb1bab4d5"
+  sha256 "75636843ab6b002e2c5578493f050f3b467606594a91b113d88578d6089dc1cf"
   license "MIT"
 
   livecheck do
